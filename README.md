@@ -81,3 +81,6 @@ Each `generate` call costs **$1** and consumes one credit. Manage credits at [fi
 ## License
 
 MIT
+
+
+<!-- mcp-name: io.github.kiro0x/five-mcp -->
