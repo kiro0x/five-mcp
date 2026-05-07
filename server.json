@@ -1,24 +1,24 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.kiro0x/five-mcp",
-  "title": "FIVE Character Engine",
-  "description": "FIVE Character Engine — an LLM constraint engine that generates JSON personality/style constraints for consistent character voices. Paid API ($1/call).",
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.kiro0x/five-mcp",
+    "title": "FIVE Character Engine",
+    "description": "LLM character consistency engine — JSON personality/style constraints. Paid API ($1/call).",
     "version": "0.1.1",
-  "packages": [
-    {
-      "registryType": "pypi",
-      "identifier": "five-mcp",
-            "version": "0.1.1",
-      "transport": {
-        "type": "stdio"
-      },
-      "environmentVariables": [
-        {
-          "name": "FIVE_API_KEY",
-          "description": "Your FIVE Character Engine API key (five_sk_xxx). Get one at https://fiveengine.dev",
-          "required": true
-        }
-      ]
-    }
-  ]
+    "packages": [
+          {
+                  "registryType": "pypi",
+                  "identifier": "five-mcp",
+                  "version": "0.1.1",
+                  "transport": {
+                            "type": "stdio"
+                  },
+                  "environmentVariables": [
+                            {
+                                        "name": "FIVE_API_KEY",
+                                        "description": "Your FIVE Character Engine API key (five_sk_xxx). Get one at https://fiveengine.dev",
+                                        "required": true
+                            }
+                  ]
+          }
+    ]
 }
