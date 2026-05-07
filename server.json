@@ -3,12 +3,12 @@
   "name": "io.github.kiro0x/five-mcp",
   "title": "FIVE Character Engine",
   "description": "FIVE Character Engine — an LLM constraint engine that generates JSON personality/style constraints for consistent character voices. Paid API ($1/call).",
-  "version": "0.1.0",
+    "version": "0.1.1",
   "packages": [
     {
       "registryType": "pypi",
       "identifier": "five-mcp",
-      "version": "0.1.0",
+            "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
