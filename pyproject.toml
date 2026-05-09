@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "five-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP server for the FIVE Character Engine — consistent LLM character voices via JSON constraints"
 readme = "README.md"
 license = "MIT"
@@ -12,7 +12,7 @@ requires-python = ">=3.10"
 authors = [
     { name = "kiro0x", email = "hello@fiveengine.dev" },
 ]
-keywords = ["mcp", "llm", "character", "consistency", "five", "ai"]
+keywords = ["mcp", "llm", "character", "consistency", "five", "ai", "token-cost-optimization", "inference-cost-reduction", "persona-drift", "retry-elimination"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
