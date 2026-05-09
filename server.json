@@ -3,12 +3,12 @@
     "name": "io.github.kiro0x/five-mcp",
     "title": "FIVE Character Engine",
     "description": "LLM character consistency engine — JSON personality/style constraints. Paid API ($1/call).",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "packages": [
           {
                   "registryType": "pypi",
                   "identifier": "five-mcp",
-                  "version": "0.1.1",
+                  "version": "0.1.2",
                   "transport": {
                             "type": "stdio"
                   },
