@@ -2,13 +2,13 @@
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name": "io.github.kiro0x/five-mcp",
     "title": "FIVE Character Engine",
-    "description": "LLM character consistency engine — JSON personality/style constraints. Paid API ($1/call).",
-    "version": "0.1.2",
+        "description": "160,000 deductively-derived JSON constraints that enforce LLM character consistency — eliminates persona drift across interactions.",
+    "version": "0.1.3",
     "packages": [
           {
                   "registryType": "pypi",
                   "identifier": "five-mcp",
-                  "version": "0.1.2",
+                  "version": "0.1.3",
                   "transport": {
                             "type": "stdio"
                   },
