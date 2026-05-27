@@ -1,6 +1,6 @@
 # five-mcp
 
-MCP server for the [FIVE Character Engine](https://fiveengine.dev) — an LLM constraint engine that generates JSON personality/style constraints for consistent character voices.
+MCP server for the [FIVE Persona Engine](https://fiveengine.dev) — an LLM persona constraint engine that generates JSON personality/style constraints to prevent persona drift and maintain consistent character voices.
 
 ## Quick Start
 
@@ -47,7 +47,7 @@ five-mcp
 
 ## Tool: `generate`
 
-Generates character constraints via the FIVE engine.
+Generates persona constraints via the FIVE engine.
 
 ### Parameters
 
