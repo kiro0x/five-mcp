@@ -1,3 +1,3 @@
-"""FIVE Character Engine – MCP Server package."""
+"""FIVE Persona Engine – MCP Server package."""
 
-__version__ = "0.1.2"
+__version__ = "1.0.0"
