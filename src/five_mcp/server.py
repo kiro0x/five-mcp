@@ -1,4 +1,4 @@
-"""FIVE Character Engine — MCP Server
+"""FIVE Persona Engine — MCP Server
 
 Exposes the FIVE /generate endpoint as an MCP tool so that any
 MCP-compatible client (Claude Desktop, Cursor, etc.) can call it directly.
@@ -17,10 +17,10 @@ from mcp.server.fastmcp import FastMCP
 
 # ── Server instance ──────────────────────────────────────────────
 mcp = FastMCP(
-    "five-character-engine",
+    "five-persona-engine",
     instructions=(
-        "FIVE Character Engine – an LLM constraint engine that returns "
-        "JSON personality/style constraints for consistent character voices. "
+        "FIVE Persona Engine – an LLM persona constraint engine that returns "
+        "JSON personality/style constraints to prevent persona drift and maintain consistent character voices. "
         "Paid API ($1/call). Requires a FIVE_API_KEY environment variable."
     ),
 )
@@ -58,10 +58,10 @@ async def generate(
     s4: Optional[ScaleValue] = None,
     free_text: Optional[str] = None,
 ) -> dict:
-    """Generate character constraints using the FIVE engine.
+    """Generate persona constraints using the FIVE engine.
 
-    This tool calls the FIVE Character Engine API to produce JSON
-    constraints that keep an LLM character's voice consistent.
+    This tool calls the FIVE Persona Engine API to produce JSON
+    constraints that prevent persona drift and keep an LLM character's voice consistent.
 
     Each call costs $1 and consumes one credit from your account.
 
