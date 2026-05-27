@@ -1,6 +1,6 @@
 # five-mcp
 
-MCP server for the [FIVE Persona Engine](https://fiveengine.dev) — an LLM persona constraint engine that generates JSON personality/style constraints to prevent persona drift and maintain consistent character voices.
+MCP server for the [FIVE Persona Engine](https://fiveengine.dev) — an LLM persona constraint engine that generates structured JSON constraints to eliminate persona drift. Instead of describing personality in words (which LLMs interpret differently each turn), FIVE defines behavioral parameters the LLM executes as a recipe. [See how it works →](https://github.com/kiro0x/five-character-engine#the-fix-dont-let-the-llm-interpret-personality-at-all)
 
 ## Quick Start
 
@@ -76,6 +76,7 @@ Each `generate` call costs **$1** and consumes one credit. Manage credits at [fi
 
 - **API & Docs:** [fiveengine.dev](https://fiveengine.dev)
 - **GitHub:** [github.com/kiro0x/five-mcp](https://github.com/kiro0x/five-mcp)
+- **Design philosophy & examples:** [five-character-engine README](https://github.com/kiro0x/five-character-engine)
 - **Engine repo:** [github.com/kiro0x/five-character-engine](https://github.com/kiro0x/five-character-engine)
 
 ## License
