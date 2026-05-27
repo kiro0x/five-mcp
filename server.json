@@ -3,12 +3,12 @@
     "name": "io.github.kiro0x/five-mcp",
     "title": "FIVE Persona Engine",
             "description": "160K deductive JSON constraints enforce LLM persona consistency — eliminate persona drift.",
-    "version": "0.1.3",
+    "version": "1.0.0",
     "packages": [
           {
                   "registryType": "pypi",
                   "identifier": "five-mcp",
-                  "version": "0.1.3",
+                  "version": "1.0.0",
                   "transport": {
                             "type": "stdio"
                   },
