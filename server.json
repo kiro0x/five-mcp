@@ -3,12 +3,12 @@
     "name": "io.github.kiro0x/five-mcp",
     "title": "FIVE Persona Engine",
     "description": "160K deductive JSON persona constraints. Measured: 0 drift breaks in 120 turns (plain prompt: 8).",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "packages": [
           {
                   "registryType": "pypi",
                   "identifier": "five-mcp",
-                  "version": "1.0.0",
+                  "version": "1.0.1",
                   "transport": {
                             "type": "stdio"
                   },
