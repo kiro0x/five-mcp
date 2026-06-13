@@ -20,6 +20,12 @@ Set your API key as an environment variable:
 export FIVE_API_KEY=five_sk_your_key_here
 ```
 
+On Windows PowerShell:
+
+```powershell
+$env:FIVE_API_KEY = "five_sk_your_key_here"
+```
+
 Get your key at [fiveengine.dev](https://fiveengine.dev).
 
 ### Use with Claude Desktop
